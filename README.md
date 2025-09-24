@@ -20,3 +20,18 @@ Check whether custom Steam profile URLs (vanity names) are **available or taken*
   - `Available.txt` → only available usernames.
 - 🔄 **Resume support** → skips already-checked usernames.
 - ⏱️ **Progress display** with checked count, available count, elapsed time, and ETA.
+
+## 🚀 Usage
+
+Run the script:
+
+- python main.py
+
+Choose an option:
+[1] Check from Custom.txt
+[2] Fetch from Random Word API and check
+
+📊 Example Output
+[1/50] taken: gamer123
+[2/50] AVAILABLE: rareusername
+[3/50] taken: steamfan
